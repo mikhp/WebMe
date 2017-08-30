@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="ftp服务器" persistUploadOnCheckin="false">
+  <component name="PublishConfigData" serverName="ftp服务器" uploadOnCheckin="8bcba559-af16-474e-8a1a-c164be4853b6">
     <serverData>
       <paths name="ftp服务器">
         <serverdata>
@@ -10,5 +10,6 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="ftp服务器" />
   </component>
 </project>
