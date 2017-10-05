@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html style="height: 100%">
+<head>
+    <meta charset="utf-8">
+</head>
+<body style="height: 100%; margin: 0">
+<div id="container" style="height: 100%"></div>
+<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts-all-3.js"></script>
+<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-stat/ecStat.min.js"></script>
+<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/dataTool.min.js"></script>
+<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/china.js"></script>
+<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/world.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=ZUONbpqGBsYGXNIYHicvbAbM"></script>
+<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/bmap.min.js"></script>
+<script type="text/javascript" src="//api.map.baidu.com/api?v=2.0&ak=nfeXoUbpxqp5FTKyxtcLkEiKNaAGpa8H"></script>
+<script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/bmap.min.js"></script>
+
+<script>
+    // 初始化地图
+    var BMapExt = new BMapExtension(domMain, BMap, require('echarts'), require('zrender'));
+    var map = BMapExt.getMap();
+    var container = BMapExt.getEchartsContainer();
+    var point = new BMap.Point(startPoint.x, startPoint.y);
+    map.centerAndZoom(point, 5);
+    map.enableScrollWheelZoom(true);
+
+    // 在这之前必须加装ECharts、百度地图API文件、引用扩展文件
+    var myBMapExt = new BMapExt($('#main')[0], BMap, echarts);
+    // 获取地图实例
+    var map = myBMapExt.getMap();
+
+    // 以下是地图的操作，详细api请前往百度地图API官网
+    var startPoint = {
+        x: 104.114129,
+        y: 37.550339
+    };
+    var point = new BMap.Point(startPoint.x, startPoint.y);
+    map.centerAndZoom(point, 5);
+    map.enableScrollWheelZoom(true);
+    // ....
+
+    // 配置option
+    var option = {...}
+    // 获取echarts的dom容器
+    var container = BMapExt.getEchartsContainer();
+    // 通过initEcharts初始化echarts并获取实例
+    var myChart = BMapExt.initECharts(container);
+    // 设置option
+    BMapExt.setOption(option);
+</script>
+</body>
+</html>

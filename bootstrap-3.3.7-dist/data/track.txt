@@ -1,0 +1,547 @@
+[
+    {
+        "fcolor": "0",
+        "flatitude": "28.1919095",
+        "flongitude": "112.9826907"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1918405",
+        "flongitude": "112.9826093"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1917339",
+        "flongitude": "112.9825692"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1916433",
+        "flongitude": "112.9825838"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.191591",
+        "flongitude": "112.9824832"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1913609",
+        "flongitude": "112.9822914"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1912714",
+        "flongitude": "112.9822266"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1911727",
+        "flongitude": "112.9822306"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1911103",
+        "flongitude": "112.9823069"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1910802",
+        "flongitude": "112.9824476"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1910734",
+        "flongitude": "112.9825738"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1911483",
+        "flongitude": "112.9826413"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1912039",
+        "flongitude": "112.9827482"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1913102",
+        "flongitude": "112.9827981"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1913927",
+        "flongitude": "112.9828483"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1914852",
+        "flongitude": "112.9828893"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1915747",
+        "flongitude": "112.9829489"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1916479",
+        "flongitude": "112.9830184"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.191722",
+        "flongitude": "112.9830859"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1918034",
+        "flongitude": "112.9831784"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1918902",
+        "flongitude": "112.9832202"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1920112",
+        "flongitude": "112.9832522"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.192111",
+        "flongitude": "112.9832644"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1922108",
+        "flongitude": "112.9833032"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.19229",
+        "flongitude": "112.9833523"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1925716",
+        "flongitude": "112.9835465"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1926571",
+        "flongitude": "112.9835118"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1927471",
+        "flongitude": "112.9834983"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.192848",
+        "flongitude": "112.9835533"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1928781",
+        "flongitude": "112.9836884"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1930295",
+        "flongitude": "112.9839125"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1931331",
+        "flongitude": "112.9839068"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1932438",
+        "flongitude": "112.9837967"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1935791",
+        "flongitude": "112.9836168"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1936534",
+        "flongitude": "112.9835178"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1937286",
+        "flongitude": "112.9834462"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1938203",
+        "flongitude": "112.983469"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1939138",
+        "flongitude": "112.9835192"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1939947",
+        "flongitude": "112.9836157"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1940875",
+        "flongitude": "112.9836355"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1941821",
+        "flongitude": "112.9836315"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1942771",
+        "flongitude": "112.9836258"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1944472",
+        "flongitude": "112.9836694"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1947887",
+        "flongitude": "112.984059"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1949037",
+        "flongitude": "112.9840587"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1949259",
+        "flongitude": "112.9831774"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1949501",
+        "flongitude": "112.9830442"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1949561",
+        "flongitude": "112.9829348"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1949748",
+        "flongitude": "112.9828185"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.19499",
+        "flongitude": "112.9827129"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1949748",
+        "flongitude": "112.9825922"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1949761",
+        "flongitude": "112.9824772"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1949561",
+        "flongitude": "112.9823598"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1949368",
+        "flongitude": "112.9822144"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1951324",
+        "flongitude": "112.9820559"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1951554",
+        "flongitude": "112.981955"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1951535",
+        "flongitude": "112.9818319"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1951261",
+        "flongitude": "112.9817204"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1950765",
+        "flongitude": "112.9816059"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1950955",
+        "flongitude": "112.9814895"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1950637",
+        "flongitude": "112.9813723"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1949704",
+        "flongitude": "112.9812839"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1949002",
+        "flongitude": "112.9811827"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1948074",
+        "flongitude": "112.9811347"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1946699",
+        "flongitude": "112.9810834"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1945736",
+        "flongitude": "112.9810392"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1944097",
+        "flongitude": "112.9808127"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1942651",
+        "flongitude": "112.9808721"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1941615",
+        "flongitude": "112.9808789"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1937454",
+        "flongitude": "112.9810354"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1936591",
+        "flongitude": "112.9809918"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.193555",
+        "flongitude": "112.9809568"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1933339",
+        "flongitude": "112.9811008"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1932294",
+        "flongitude": "112.9810305"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1931405",
+        "flongitude": "112.9808653"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1930452",
+        "flongitude": "112.9808529"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1929093",
+        "flongitude": "112.980851"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1927593",
+        "flongitude": "112.9806071"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1926411",
+        "flongitude": "112.9804487"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1926495",
+        "flongitude": "112.9805626"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1926283",
+        "flongitude": "112.9806665"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1923492",
+        "flongitude": "112.9807794"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1922418",
+        "flongitude": "112.9808024"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1921365",
+        "flongitude": "112.9808119"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1920321",
+        "flongitude": "112.9808539"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.191945",
+        "flongitude": "112.9808816"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1918487",
+        "flongitude": "112.9808925"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1917299",
+        "flongitude": "112.9809288"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1916279",
+        "flongitude": "112.980941"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1915546",
+        "flongitude": "112.9810289"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1914773",
+        "flongitude": "112.9811027"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1914459",
+        "flongitude": "112.9812069"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1913943",
+        "flongitude": "112.9813279"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1914355",
+        "flongitude": "112.9814553"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1913778",
+        "flongitude": "112.9815481"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1912967",
+        "flongitude": "112.9815956"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1912923",
+        "flongitude": "112.9817155"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1912693",
+        "flongitude": "112.98183"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1911089",
+        "flongitude": "112.9820085"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1910924",
+        "flongitude": "112.9821145"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1910848",
+        "flongitude": "112.982223"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.191126",
+        "flongitude": "112.9823334"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1912299",
+        "flongitude": "112.9823305"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1913241",
+        "flongitude": "112.9823861"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1914244",
+        "flongitude": "112.9824276"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1915462",
+        "flongitude": "112.9823671"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1916398",
+        "flongitude": "112.9823907"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.191731",
+        "flongitude": "112.9824618"
+    },
+    {
+        "fcolor": "0",
+        "flatitude": "28.1918012",
+        "flongitude": "112.9825355"
+    }
+]

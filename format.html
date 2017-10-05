@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>MODEL PAGE</title>
+    <script type="text/javascript" src="bootstrap-3.3.7-dist/js/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        var Ajax = function ()
+        {
+            $.getJSON ("bootstrap-3.3.7-dist/data/track.txt", function (data)
+            {
+                $.each (data, function (i, item)
+                {
+                    $ ("#disp").append ("'" + i + "':");
+                    $ ("#disp").append ("[" + item.flongitude + ",");
+                    $ ("#disp").append ("" + item.flatitude + "],");
+
+                });
+                $.each (data, function (i, item)
+                {
+                    $ ("#disp2").append("{name:"+ "'" + i + "'" );
+                    $ ("#disp2").append(",value : 120},");
+                });
+
+            });
+        }
+    </script>
+</head>
+<body>
+<input type="button" value="Ajax提交" onclick="Ajax();" />
+<div id="disp"></div>
+<div id="disp2"></div>
+</body>
+</html>
