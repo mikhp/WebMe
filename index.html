@@ -11,61 +11,32 @@
 <body>
 <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
     <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-left" href="#"><img src="img/1.png"></a>
+            <a class="navbar-left" href="#"><img src="img/1.png" alt="logo"></a>
         </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="run.html" target="_blank">Link <span class="sr-only">(current)</span></a>
-                </li>
-                <li><a href="format.html" target="_blank">Link</a></li>
+            <!--right-->
+            <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                       aria-expanded="false">Dropdown <span class="caret"></span></a>
+                       aria-expanded="false"> <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
+                        <li><a href="run.html" target="_blank">空气质量</a></li>
+                        <li><a href="format.html" target="_blank">格式化json</a></li>
+                        <li><a href="chart.html" target="_blank">百度图表</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">One more separated link</a></li>
+                        <li><a href="http://www.qq.com">腾讯</a></li>
                     </ul>
                 </li>
             </ul>
-            <form class="navbar-form navbar-left">
+            <form class="navbar-form navbar-right">
                 <div class="form-group">
                     <input type="text" class="form-control" placeholder="Search">
                 </div>
                 <button type="submit" class="btn btn-default">Submit</button>
             </form>
-            <p class="navbar-text">Signed in as Mark Otto</p>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Link</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                       aria-expanded="false">Dropdown <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                    </ul>
-                </li>
-            </ul>
         </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
+    </div>
 </nav>
 <div class="jumbotron" style="text-indent:1em">
     <H1>my world...is your world</H1>
@@ -106,18 +77,36 @@
                 </tr>
                 </tbody>
             </table>
-            <div><video controls><source src="http://www.runoob.com/try/demo_source/movie.ogg"></video></div>
+            <div>
+                <video controls>
+                    <source src="http://www.runoob.com/try/demo_source/movie.ogg">
+                </video>
+            </div>
         </div>
     </div>
 </div>
 <div class="row">
-    <div class="col-sm-12"><div class="table-responsive"><video controls autoplay src="http://qn.bejson.com/scene-Qqkzy9k7Eo.mp4"></video></div></div>
-  </div>
+    <div class="col-sm-12">
+        <video width="300" height="200" controls autoplay>
+            <source src="http://qn.bejson.com/scene-Qqkzy9k7Eo.mp4" type="video/mp4">
+        </video>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-3">
+        <img class="img-responsive" src="http://img1.gtimg.com/news/pics/hv1/165/189/2245/146029485.jpg" alt="">
+    </div>
+    <div class="col-sm-3">
+        <img class="img-responsive" src="http://img1.gtimg.com/news/pics/hv1/86/190/2245/146029661.jpg" alt="">
+    </div>
+    <div class="col-sm-3">
+        <img class="img-responsive" src="http://img1.gtimg.com/news/pics/hv1/212/189/2245/146029532.jpg" alt="">
+    </div>
+    <div class="col-sm-3"><img class="img-responsive"
+                               src="http://img1.gtimg.com/news/pics/hv1/14/190/2245/146029589.jpg" alt=""></div>
+</div>
 
-
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="bootstrap-3.3.7-dist/js/jquery-3.2.1.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 </body>
 </html>
