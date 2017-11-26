@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>cube</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        div {
+            display: block;
+        }
+
+        body {
+            background: #000000;
+            overflow: hidden;
+
+        }
+
+        .heart {
+            perspective: 800px;
+            position:absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            width: 100px;
+            height: 160px;
+            margin: auto;
+            transform-style: preserve-3d;
+            animation: rot 10s linear infinite; /**/
+        }
+
+        .rib {
+            position: absolute;
+            width: 100px;
+            height: 160px;
+            border: solid red;
+            border-width: 1px 1px 0 0;
+            margin: auto;
+            border-radius: 50% 50% 0 / 40% 50% 0;
+        }
+
+        @keyframes rot {
+            from {
+                transform: rotateY(0deg)  rotateZ(0deg)
+            }
+            to {
+                transform: rotateY(360deg) rotateZ(360deg)
+            }
+        }
+
+        .cube {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            width: 50px;
+            height: 50px;
+            color: red;
+            transform-style: preserve-3d;
+            transform: translateZ(25px) translateY(25px);
+
+        }
+
+        .cube div {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+        }
+
+        .cube div:nth-child(1) {
+            left: 0;
+            top: -50px;
+            transform: rotateX(90deg);
+            transform-origin: bottom;
+        }
+
+        .cube div:nth-child(2) {
+            left: 0;
+            top: 50px;
+            transform: rotateX(-90deg);
+            transform-origin: top;
+        }
+
+        .cube div:nth-child(3) {
+            left: -50px;
+            top: 0;
+            transform: rotateY(-90deg);
+            transform-origin: right;
+        }
+
+        .cube div:nth-child(4) {
+            left: 50px;
+            top: 0;
+            transform: rotateY(90deg);
+            transform-origin: left;
+        }
+
+        .cube div:nth-child(5) {
+            left: 0;
+            top: 0;
+        }
+
+        .cube div:nth-child(6) {
+            left: 0;
+            top: 0;
+            transform: translateZ(-50px);
+        }
+
+    </style>
+</head>
+<body>
+<div class="heart">
+    <div class="cube">
+        <div><img src="img/01.jpg" width="50px" height="50px"></div>
+        <div><img src="img/02.jpg" width="50px" height="50px"></div>
+        <div><img src="img/03.jpg" width="50px" height="50px"></div>
+        <div><img src="img/04.jpg" width="50px" height="50px"></div>
+        <div><img src="img/05.jpg" width="50px" height="50px"></div>
+        <div><img src="img/06.jpg" width="50px" height="50px"></div>
+    </div>
+</div>
+<script>
+    var heart = document.getElementsByClassName("heart")[0];
+    for (var i = 0; i < 36; i++) {
+        var oDiv = document.createElement("div");
+        oDiv.className = "rib";
+        oDiv.style.transform = "rotateY(" + 10 * i + "deg)  rotateZ(45deg) translateX(30px)";
+        heart.appendChild(oDiv);
+    }
+</script>
+</body>
+</html>
